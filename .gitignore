@@ -1,0 +1,9 @@
+data/*.exe
+data/*.png
+data/*.wav
+data/*.lua
+data/t_*
+data/test_passed.*
+release_source/
+xor_constellation.pdx/
+xor_constellation.zip

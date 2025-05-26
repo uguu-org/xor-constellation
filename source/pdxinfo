@@ -1,0 +1,7 @@
+name=Xor Constellation
+author=uguu.org
+description=Make all zeroes or all ones through a series of XOR operations
+bundleID=org.uguu.XorConstellation
+version=0.1
+buildNumber=1
+imagePath=launcher/

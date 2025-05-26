@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="640"
+   height="360"
+   viewBox="0 0 640 360"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
+   sodipodi:docname="gameplay.svg"
+   inkscape:export-filename="gameplay.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     inkscape:zoom="2"
+     inkscape:cx="312.5"
+     inkscape:cy="175.5"
+     inkscape:window-width="1920"
+     inkscape:window-height="1057"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     showgrid="false" />
+  <defs
+     id="defs1">
+    <marker
+       id="Triangle"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Triangle arrow"
+       markerWidth="0.75"
+       markerHeight="0.75"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path135" />
+    </marker>
+  </defs>
+  <g
+     inkscape:label="screenshot"
+     inkscape:groupmode="layer"
+     id="layer1"
+     sodipodi:insensitive="true">
+    <rect
+       style="fill:#ffffff"
+       id="rect1"
+       width="640"
+       height="360"
+       x="0"
+       y="0" />
+    <image
+       width="400"
+       height="240"
+       preserveAspectRatio="none"
+       style="image-rendering:optimizeSpeed"
+       xlink:href="screen.png"
+       id="image1"
+       x="104"
+       y="60" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="text"
+     sodipodi:insensitive="true">
+    <text
+       xml:space="preserve"
+       style="font-size:16px;line-height:1.25;font-family:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000"
+       x="23.083153"
+       y="30.09259"
+       id="text1"><tspan
+         sodipodi:role="line"
+         id="tspan1"
+         x="23.083153"
+         y="30.09259"
+         style="fill:#000000">Score</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:16px;line-height:1.25;font-family:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000"
+       x="27.583153"
+       y="194.09259"
+       id="text3"><tspan
+         sodipodi:role="line"
+         id="tspan3"
+         x="27.583153"
+         y="194.09259"
+         style="fill:#000000">Targets</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:16px;line-height:1.25;font-family:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000"
+       x="244.58316"
+       y="346.09259"
+       id="text4"><tspan
+         sodipodi:role="line"
+         id="tspan4"
+         x="244.58316"
+         y="346.09259"
+         style="fill:#000000">Next target</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:16px;line-height:1.25;font-family:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000"
+       x="230.08316"
+       y="20.09259"
+       id="text5"><tspan
+         sodipodi:role="line"
+         id="tspan5"
+         x="230.08316"
+         y="20.09259"
+         style="fill:#000000">Selected targets</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:16px;line-height:1.25;font-family:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000"
+       x="466.58316"
+       y="44.09259"
+       id="text6"><tspan
+         sodipodi:role="line"
+         id="tspan6"
+         x="466.58316"
+         y="44.09259"
+         style="fill:#000000">XOR of selected targets</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:16px;line-height:1.25;font-family:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000"
+       x="526.58313"
+       y="193.09259"
+       id="text7"><tspan
+         sodipodi:role="line"
+         x="526.58313"
+         y="193.09259"
+         style="fill:#000000"
+         id="tspan9">XOR of</tspan><tspan
+         sodipodi:role="line"
+         x="526.58313"
+         y="213.09259"
+         style="fill:#000000"
+         id="tspan10">selected+next</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:16px;line-height:1.25;font-family:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000"
+       x="520.58313"
+       y="346.09259"
+       id="text23"><tspan
+         sodipodi:role="line"
+         id="tspan23"
+         x="520.58313"
+         y="346.09259"
+         style="fill:#000000">Game time</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="arrows"
+     sodipodi:insensitive="true">
+    <path
+       style="fill:none;stroke:#00ff00;stroke-width:3;stroke-linecap:round;marker-end:url(#Triangle)"
+       d="M 59.75,37 94,60.25"
+       id="path10" />
+    <path
+       style="fill:none;stroke:#00ff00;stroke-width:3;stroke-linecap:round;marker-end:url(#Triangle)"
+       d="M 294.75,25.5 299,52.75"
+       id="path11" />
+    <path
+       style="fill:none;stroke:#00ff00;stroke-width:3;stroke-linecap:round;marker-end:url(#Triangle)"
+       d="M 587.75,54.5 508,103.25"
+       id="path12" />
+    <path
+       style="fill:none;stroke:#00ff00;stroke-width:3;stroke-linecap:round;marker-end:url(#Triangle)"
+       d="M 540.25,177 502.5,133.25"
+       id="path13" />
+    <path
+       style="fill:none;stroke:#00ff00;stroke-width:3;stroke-linecap:round;marker-end:url(#Triangle)"
+       d="M 260.75,332 243.5,250.75"
+       id="path14" />
+    <path
+       style="fill:none;stroke:#00ff00;stroke-width:3;stroke-linecap:round;marker-end:url(#Triangle)"
+       d="M 61.75,176.5 128.5,134.75"
+       id="path15" />
+    <path
+       style="fill:none;stroke:#00ff00;stroke-width:3;stroke-linecap:round;marker-end:url(#Triangle)"
+       d="m 85.25,192 56.25,-4.25"
+       id="path16" />
+    <path
+       style="fill:none;stroke:#00ff00;stroke-width:3;stroke-linecap:round;marker-end:url(#Triangle)"
+       d="M 59.75,202.5 140,236.25"
+       id="path17" />
+    <path
+       style="fill:none;stroke:#00ff00;stroke-width:3;stroke-linecap:round;marker-end:url(#Triangle)"
+       d="M 329.75,25.5 357.5,56.25"
+       id="path18" />
+    <path
+       style="fill:none;stroke:#00ff00;stroke-width:3;stroke-linecap:round;marker-end:url(#Triangle)"
+       d="M 309.25,25.5 351,121.25"
+       id="path19" />
+    <path
+       style="fill:none;stroke:#00ff00;stroke-width:3;stroke-linecap:round;marker-end:url(#Triangle)"
+       d="M 266.25,25.5 255.5,54.25"
+       id="path20" />
+    <path
+       style="fill:none;stroke:#00ff00;stroke-width:3;stroke-linecap:round;marker-end:url(#Triangle)"
+       d="M 244.25,25.5 187,87.25"
+       id="path21" />
+    <path
+       style="fill:none;stroke:#00ff00;stroke-width:3;stroke-linecap:round;marker-end:url(#Triangle)"
+       d="M 277.75,25.5 299,148.25"
+       id="path22" />
+    <path
+       style="fill:none;stroke:#00ff00;stroke-width:3;stroke-linecap:round;marker-end:url(#Triangle)"
+       d="M 517.75,338.5 431.5,303.25"
+       id="path23" />
+  </g>
+</svg>

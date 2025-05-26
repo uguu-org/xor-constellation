@@ -1,0 +1,51 @@
+TODO:
+Need launcher animation and card animation.
+
+
+Xor Constellation
+
++ Append XOR operands to expression until resulting byte is 0x00 or 0xff.
++ Either 0x00 or 0xff will clear the chain, but more points is scored if it's the same result as the last chain.
++ Normal mode = 8 bits, easy mode = 4 bits
++ Tiles that would have been 0x00 are drawn with a special sprite instead.
++ Each tile contains a single operand for XOR.
++ Maximum chain is 24.
+
++ Game ends when player runs out of thinking time.
++ Thinking time decreases at a rate proportional to amount of idleness.  We want 30 seconds of consecutive idleness to end the game right away, but give players ~2 seconds of thinking time for a ~10 minute game.
+
+10 minutes of thinking time = 5 minutes zero cost time + 5 minutes rated time
+- 5 minutes time at 1x = 30 seconds at variable rate.
+- Rate of thinking time decrease is proportional to amount of idleness.  Idle time can be computed from last_action_timestamp.
+- First second of idleness costs no time.
+
+
+Title screen should have white background, since start of game will have all targets flashing white.
+
+
+ 
+
+Crank/left/right = set direction.
+A/up = go forward.
+B/down = undo.
+
+Initialization:
+1. Set starting tile so that XOR with any neighbor tile does not result in 0x00 or 0xff (i.e. minimum chain is at least 3 tiles).
+2. Perform a random walk of at least 3 steps from starting tile, making sure that intermediate XOR results are not 0x00 nor 0xff.
+3. Modify one random tile along the chain to make the XOR result 0xFF, excluding the ones directly adjacent to starting tile.
+4. Repeat steps 2-3 for 0x00.
+
+On completing a chain: randomize all tiles along current chain, then repeat initialization steps.
+
+Scoring:
++ Add 1<<length points for each completed chain.
++ Increase bonus multiplier if XOR result is same as previous (i.e. bonus for repeated 0x0 or 0xf).
++ Bonus multiplier for including Bocchi or Kita in the chain.
+
+
+Similar games:
+
+https://abagames.github.io/crisp-game-lib-games/?sumten
+https://rjcunningham.itch.io/xor-game
+
+
