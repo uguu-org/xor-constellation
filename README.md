@@ -46,10 +46,13 @@ Q: I don't see any hints despite setting the option to "visible"?
 A: Keep pressing **B** to undo adding targets and eventually the lines will show up.
 
 Q: I can't seem to score any points at all!\
-A: In levels 1-4, you should be able to score just by keep going straight, or by playing randomly.  This is because you have a 1 in 8 chance of hitting a target with the right bit value.  This probability drops to 1 in 128 in levels 5-8, so a more deliberate strategy is needed.  In general, you want to recognize numbers that are bit complements of each other, and use those to reach the targets that would complete your constellation.
+A: In levels 1-4, you should be able to score just by keep going straight, or by playing randomly.  This is because you have about a 1 in 8 chance of hitting a target with the right bit value.  This probability drops to about 1 in 128 in levels 5-8, so a more deliberate strategy is needed.  In general, you want to recognize numbers that are bit complements of each other, and use those to reach the targets that would complete your constellation.
+
+Q: Why is the score sometimes black and sometimes white?\
+A: It's based on whether the last completed constellation is all zeroes or all ones.
 
 Q: Do the images mean anything?\
 A: They are mostly just for variety, although two of them have extra bonus multipliers associated with them.
 
-Q: I am playing this in the simulator and the game becomes laggy after a while.
+Q: I am playing this in the simulator and the game becomes laggy after a while.\
 A: Try playing with Malloc Pool disabled, or manually clear malloc history periodically.
