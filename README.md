@@ -42,7 +42,7 @@ Hint lines show the path to building two constellations, one with XOR value of a
 
 ## FAQ
 
-Q: I don't see any hints despite setting the option to "visible"?
+Q: I don't see any hints despite setting the option to "visible"?\
 A: Keep pressing **B** to undo adding targets and eventually the lines will show up.
 
 Q: I can't seem to score any points at all!\
